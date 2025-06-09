@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+require('dotenv').config();
 
 const rutaTareas = path.join(__dirname, 'tareas.json');
 
